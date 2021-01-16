@@ -75,7 +75,7 @@ for r2 = R_Start:R_Step:R_End
         title(['Circular Hough Transform for R = ' num2str(r2)]);
 
         %save figure
-        %saveas(figure(1),'output.bmp');
+        saveas(figure(1),'../output/cht_output.bmp');
 
         ret = r2;
         return

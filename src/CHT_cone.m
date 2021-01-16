@@ -40,5 +40,5 @@ zlabel('H');
 title('Circular Hough Transformation Cone');
 
 %save figure
-%saveas(figure(1),'output.bmp');
+saveas(figure(1),'../output/cht_cone_output.bmp');
   
